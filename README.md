@@ -16,7 +16,7 @@ Para su primer ejercicio del primer proyecto, deben cargar el modelo obj que hic
 </p>
 
 ## Requisitos
-- Compilador para languajes C y C++
+- Compilador para lenguajes C y C++
 
 
 ## ¿Como ejecutar el programa? 
@@ -28,10 +28,13 @@ git clone https://github.com/GenserDev/Lab4-Graficas.git
 ```
 cd Lab4-Graficas
 ```
-3. Abrir su compilador de C y C++ y ejecutar los comandos 
+3. Abrir su compilador de C y C++ y ejecutar los comandos
+
+- Para compilar
 ```
 g++ -std=c++17 main.cpp framebuffer.cpp triangle.cpp -o renderer.exe $(pkg-config --cflags --libs sdl2)
 ```
+- Para correr el programa
 ```
 ./renderer.exe
 ```
